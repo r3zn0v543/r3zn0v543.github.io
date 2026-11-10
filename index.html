@@ -1,3 +1,60 @@
-   <!DOCTYPE html>
-   <html><head><title>rclone</title></head>
-   <body><h1>rclone (privater Gebrauch)</h1></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rclone – Synchronisation und Backup mit Google Drive</title>
+</head>
+<body style="font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; line-height: 1.6;">
+
+  <h1>rclone</h1>
+  <p>
+    Diese Seite ist die Startseite meiner privaten Anwendung <strong>rclone</strong>.
+    Die Anwendung nutzt das Open-Source-Kommandozeilenprogramm
+    <a href="https://rclone.org/">rclone</a> (Autorisierung über eine eigene OAuth-Client-ID),
+    um Dateien auf meinem eigenen Google-Drive-Konto zu sichern und zu synchronisieren.
+  </p>
+
+  <h2>Wozu dient die Anwendung?</h2>
+  <p>
+    Ich verwalte meine Notizen und Lernunterlagen (Markdown-Dateien in einem Obsidian-Vault)
+    auf mehreren eigenen Geräten. Mit rclone synchronisiere ich diese Dateien automatisch mit
+    meinem Google Drive. So habe ich auf allen Geräten den aktuellen Stand, und es gibt ein
+    Backup, falls ein Gerät ausfällt.
+  </p>
+
+  <h2>Welche Google-Daten werden verwendet und warum?</h2>
+  <ul>
+    <li><strong>Zugriff auf Google Drive:</strong> Die Anwendung liest, lädt hoch, ändert und löscht
+        Dateien in meinem eigenen Google Drive, um den lokalen Ordner mit dem Drive-Ordner
+        abzugleichen.</li>
+    <li><strong>Keine weiteren Daten:</strong> Es werden keine Kontakte, E-Mails, Kalenderdaten
+        oder sonstige Google-Dienste genutzt.</li>
+  </ul>
+
+  <h2>Wer nutzt die Anwendung?</h2>
+  <p>
+    Die Anwendung wird ausschließlich von mir selbst als Entwickler und einzigem Nutzer verwendet.
+    Sie ist nicht für die Öffentlichkeit gedacht, und es gibt keine weiteren Nutzer.
+  </p>
+
+  <h2>Datenschutz</h2>
+  <p>
+    Die Daten verbleiben in meinem Google-Konto und auf meinen eigenen Geräten.
+    Es werden keine Daten an Dritte weitergegeben, verkauft oder zu Werbezwecken genutzt.
+    Details stehen in der <a href="https://r3zn0v543.github.io/privacy.html">Datenschutzerklärung</a>.
+  </p>
+
+  <hr>
+
+  <h2>English summary</h2>
+  <p>
+    <strong>rclone</strong> is a private application that uses the open-source command-line tool
+    rclone to synchronize and back up my personal notes (Markdown files) with my own Google Drive
+    account. It accesses only my own Google Drive files, has a single user (the developer),
+    and shares no data with third parties. See the
+    <a href="https://r3zn0v543.github.io/privacy.html">privacy policy</a>.
+  </p>
+
+</body>
+</html>
